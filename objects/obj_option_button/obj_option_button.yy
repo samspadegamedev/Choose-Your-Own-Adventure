@@ -1,0 +1,41 @@
+{
+  "spriteId": {
+    "name": "spr_button_mask_large",
+    "path": "sprites/spr_button_mask_large/spr_button_mask_large.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "button_parent",
+    "path": "objects/button_parent/button_parent.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_option_button","path":"objects/obj_option_button/obj_option_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"my_font","path":"objects/button_parent/button_parent.yy",},"objectId":{"name":"button_parent","path":"objects/button_parent/button_parent.yy",},"value":"fnt_small","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
+  "parent": {
+    "name": "Buttons",
+    "path": "folders/Buttons.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_option_button",
+  "tags": [],
+  "resourceType": "GMObject",
+}
