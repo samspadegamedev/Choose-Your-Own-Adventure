@@ -1,0 +1,67 @@
+{
+  "Start": {
+    "page text" : "You enter a small room with two doors",
+    "page options": [
+      {
+        "option text": "Go Left?",
+        "option page": "First Left"
+      },
+      {
+        "option text": "Go Right?",
+        "option page": "First Right"
+      }
+    ]
+  },
+  "First Left": {
+    "page text": "You go left and find nothing but a dead end.",
+    "page options": [
+      {
+        "option text": "Go back",
+        "option page": "Start"
+      }
+    ]
+  },
+  "First Right": {
+    "page text": "You go right and see a treasure chest.",
+    "page options": [
+      {
+        "option text": "Open the Chest",
+        "option page": "Treasure Chest"
+      }
+    ]
+  },
+  "Treasure Chest": {
+    "page text": "You try to open the treasure chest, but you can't.",
+    "page options": [
+      {
+        "option text": "Give Up",
+        "option page": "Leave"
+      },
+      {
+        "option text": "Look Around",
+        "option page": "Look Around"
+      }
+    ]
+  },
+  "Look Around": {
+    "page text": "You look around and see a lever in the corner.",
+    "page options": [
+      {
+        "option text": "Give Up",
+        "option page": "Leave"
+      },
+      {
+        "option text": "Pull the Lever",
+        "option page": "Lever"
+      }
+    ]
+  },
+  "Leave": {
+    "page text": "You give up and leave empty handed. The End.",
+    "page options": []
+  },
+  "Lever": {
+    "page text": "The treasure chest is open! You fill your arms with treasure! The End.",
+    "page options": []
+  }
+}
